@@ -37,17 +37,7 @@ public class impOne {
                     }
             return;
             }
-
-               /* String newline[] = line.split(",");
-                for (int i = 0; i <= newline.length; i++) {
-                    String[] r = newline[i].split(",");
-                    if (i != 0) {
-                        for (int k = 0; k < r.length-1; k++) {
-                            data += (r[0] = r[0].replace(',', '-')) + r[1] ;
-                        }
-                        System.out.println(data);
-                    }
-                }*/ catch (FileNotFoundException e) {
+                catch (FileNotFoundException e) {
             e.printStackTrace();
         }
 
